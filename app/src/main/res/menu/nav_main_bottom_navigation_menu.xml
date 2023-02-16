@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/forestFragment"
+        android:title="대나무숲"
+        android:icon="@drawable/ic_baseline_forest_24"/>
+
+    <item
+        android:id="@+id/clinicFragment"
+        android:title="클리닉 센터"
+        android:icon="@drawable/ic_baseline_clinic_24"/>
+
+    <item
+        android:id="@+id/homeFragment"
+        android:title="홈"
+        android:icon="@drawable/ic_baseline_home_24"/>
+
+    <item
+        android:id="@+id/reportFragment"
+        android:title="내 기록"
+        android:icon="@drawable/ic_baseline_report_24"/>
+
+    <item
+        android:id="@+id/statsFragment"
+        android:title="통계"
+        android:icon="@drawable/ic_baseline_stats_24"/>
+
+
+</menu>
