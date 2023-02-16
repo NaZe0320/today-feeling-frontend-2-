@@ -4,13 +4,10 @@ import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
-import androidx.navigation.findNavController
-import androidx.navigation.ui.NavigationUI
 import androidx.navigation.ui.NavigationUI.setupWithNavController
-import androidx.navigation.ui.setupActionBarWithNavController
 import com.naze.todayfeeling.R
 import com.naze.todayfeeling.databinding.ActivityMainBinding
-import com.naze.todayfeeling.util.BindingActivity
+import com.naze.todayfeeling.util.binding.BindingActivity
 
 class MainActivity : BindingActivity<ActivityMainBinding>(R.layout.activity_main) {
 
