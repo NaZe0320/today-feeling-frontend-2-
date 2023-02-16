@@ -1,4 +1,4 @@
-package com.naze.todayfeeling.util
+package com.naze.todayfeeling.util.binding
 
 import android.os.Bundle
 import androidx.annotation.LayoutRes
