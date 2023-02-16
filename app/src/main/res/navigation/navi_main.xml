@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navi_main"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.naze.todayfeeling.presentation.HomeFragment"
+        android:label="HomeFragment" />
+    <fragment
+        android:id="@+id/forestFragment"
+        android:name="com.naze.todayfeeling.presentation.ForestFragment"
+        android:label="ForestFragment" />
+    <fragment
+        android:id="@+id/clinicFragment"
+        android:name="com.naze.todayfeeling.presentation.ClinicFragment"
+        android:label="ClinicFragment" />
+    <fragment
+        android:id="@+id/reportFragment"
+        android:name="com.naze.todayfeeling.presentation.ReportFragment"
+        android:label="ReportFragment" />
+    <fragment
+        android:id="@+id/statsFragment"
+        android:name="com.naze.todayfeeling.presentation.StatsFragment"
+        android:label="StatsFragment" />
+</navigation>
