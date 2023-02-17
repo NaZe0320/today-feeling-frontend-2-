@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.naze.todayfeeling.presentation.HomeFragment"
+        android:name="com.naze.todayfeeling.presentation.home.HomeFragment"
         android:label="HomeFragment" />
     <fragment
         android:id="@+id/forestFragment"
