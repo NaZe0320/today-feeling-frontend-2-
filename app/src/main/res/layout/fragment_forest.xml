@@ -46,6 +46,7 @@
             app:layout_constraintStart_toStartOf="@id/guideline"
             app:layout_constraintEnd_toEndOf="@id/guideline2"
             app:layout_constraintTop_toBottomOf="@id/btn_write_clinic"
+            app:layout_constraintBottom_toBottomOf="parent"
             tools:listitem="@layout/list_item_forest">
 
         </androidx.recyclerview.widget.RecyclerView>

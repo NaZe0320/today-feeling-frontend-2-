@@ -124,7 +124,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
-                android:text="좋아요 0"
+                android:text="좋아요"
                 android:textColor="@color/selector_favorite_color"
                 android:textSize="@dimen/ts_report_card_button"
                 app:layout_constraintTop_toTopOf="parent"
