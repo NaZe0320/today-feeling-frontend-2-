@@ -27,8 +27,7 @@
             android:id="@+id/fl_positive"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:background="@drawable/round_square"
-            android:backgroundTint="@color/selector_feeling_background_color"
+            android:background="@drawable/round_square_feeling"
             android:elevation="4dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -62,6 +61,7 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
+                    android:id="@+id/tv_feeling_positive"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="긍정"
@@ -83,8 +83,7 @@
             android:id="@+id/fl_negative"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:background="@drawable/round_square"
-            android:backgroundTint="@color/selector_feeling_background_color"
+            android:background="@drawable/round_square_feeling"
             android:elevation="4dp"
             app:layout_constraintStart_toEndOf="@+id/fl_positive"
             app:layout_constraintTop_toTopOf="parent"
@@ -118,6 +117,7 @@
                     app:layout_constraintTop_toTopOf="parent" />
 
                 <TextView
+                    android:id="@+id/tv_feeling_negative"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="부정"
