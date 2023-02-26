@@ -30,24 +30,9 @@ class ForestAdapter(
         : RecyclerView.ViewHolder(binding.root) {
             fun bind(forest: ForestData) {
                 binding.forest = forest
-                binding.btnFavoriteForest.text = if (forest.favCount > 99 ) "좋아요 99+" else "좋아요 ${forest.favCount}"
                 binding.btnFavoriteForest.setOnClickListener {
                     binding.btnFavoriteForest.run {
                         this.isSelected = !this.isSelected
-                        if (this.isSelected) {
-                            if (forest.favCount + 1 > 99) {
-                                this.text = "좋아요 99+"
-                            } else {
-                                this.text = "좋아요 ${forest.favCount + 1}"
-                            }
-                        }
-                        else {
-                            if (forest.favCount > 99) {
-                                this.text = "좋아요 99+"
-                            } else {
-                                this.text = "좋아요 ${forest.favCount }"
-                            }
-                        }
                     }
                 }
             }

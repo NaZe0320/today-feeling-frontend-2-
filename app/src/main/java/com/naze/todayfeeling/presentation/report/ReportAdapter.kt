@@ -32,24 +32,9 @@ class ReportAdapter(
         : RecyclerView.ViewHolder(binding.root) {
             fun bind(report: ReportData) {
                 binding.report = report
-                binding.btnFavoriteReport.text = if (report.favCount > 99 ) "좋아요 99+" else "좋아요 ${report.favCount}"
                 binding.btnFavoriteReport.setOnClickListener {
                     binding.btnFavoriteReport.run {
                         this.isSelected = !this.isSelected
-                        if (this.isSelected) {
-                            if (report.favCount + 1 > 99) {
-                                this.text = "좋아요 99+"
-                            } else {
-                                this.text = "좋아요 ${report.favCount + 1}"
-                            }
-                        }
-                        else {
-                            if (report.favCount > 99) {
-                                this.text = "좋아요 99+"
-                            } else {
-                                this.text = "좋아요 ${report.favCount }"
-                            }
-                        }
                     }
                 }
             }

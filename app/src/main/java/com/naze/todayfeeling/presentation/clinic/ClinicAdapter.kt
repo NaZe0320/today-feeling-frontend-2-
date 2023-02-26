@@ -28,24 +28,9 @@ class ClinicAdapter(
         : RecyclerView.ViewHolder(binding.root) {
             fun bind(clinic: ClinicData) {
                 binding.clinic = clinic
-                binding.btnFavoriteClinic.text = if (clinic.favCount > 99 ) "좋아요 99+" else "좋아요 ${clinic.favCount}"
                 binding.btnFavoriteClinic.setOnClickListener {
                     binding.btnFavoriteClinic.run {
                         this.isSelected = !this.isSelected
-                        if (this.isSelected) {
-                            if (clinic.favCount + 1 > 99) {
-                                this.text = "좋아요 99+"
-                            } else {
-                                this.text = "좋아요 ${clinic.favCount + 1}"
-                            }
-                        }
-                        else {
-                            if (clinic.favCount > 99) {
-                                this.text = "좋아요 99+"
-                            } else {
-                                this.text = "좋아요 ${clinic.favCount }"
-                            }
-                        }
                     }
                 }
             }
