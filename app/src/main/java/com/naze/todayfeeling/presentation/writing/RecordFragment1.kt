@@ -3,10 +3,10 @@ package com.naze.todayfeeling.presentation.writing
 import android.os.Bundle
 import android.view.View
 import com.naze.todayfeeling.R
-import com.naze.todayfeeling.databinding.FragmentWriting1Binding
+import com.naze.todayfeeling.databinding.FragmentRecord1Binding
 import com.naze.todayfeeling.util.binding.BindingFragment
 
-class RecordFragment1:BindingFragment<FragmentWriting1Binding>(R.layout.fragment_record_1) {
+class RecordFragment1:BindingFragment<FragmentRecord1Binding>(R.layout.fragment_record_1) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)

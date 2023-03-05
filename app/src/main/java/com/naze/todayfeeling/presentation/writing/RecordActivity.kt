@@ -14,5 +14,6 @@ class RecordActivity : BindingActivity<ActivityWritingBinding>(R.layout.activity
 
     private fun initLayout() {
         binding.viewPager.adapter = RecordFragmentAdapter(this)
+
     }
 }
