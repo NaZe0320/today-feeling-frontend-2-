@@ -6,7 +6,7 @@ import com.naze.todayfeeling.R
 import com.naze.todayfeeling.databinding.FragmentWriting1Binding
 import com.naze.todayfeeling.util.binding.BindingFragment
 
-class WritingFragment1:BindingFragment<FragmentWriting1Binding>(R.layout.fragment_writing_1) {
+class RecordFragment1:BindingFragment<FragmentWriting1Binding>(R.layout.fragment_writing_1) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)

@@ -14,7 +14,7 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
-            android:name=".presentation.writing.WritingActivity"
+            android:name=".presentation.writing.RecordActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
