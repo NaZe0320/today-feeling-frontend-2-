@@ -1,4 +1,4 @@
-package com.naze.todayfeeling.presentation.writing
+package com.naze.todayfeeling.presentation.Record
 
 import android.os.Bundle
 import android.view.View

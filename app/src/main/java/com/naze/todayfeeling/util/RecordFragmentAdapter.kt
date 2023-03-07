@@ -4,9 +4,7 @@ import android.util.Log
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import com.naze.todayfeeling.presentation.writing.RecordFragment1
-import com.naze.todayfeeling.presentation.writing.RecordFragment2
-import com.naze.todayfeeling.presentation.writing.RecordFragment3
+import com.naze.todayfeeling.presentation.Record.RecordFragment1
 
 class RecordFragmentAdapter(fragment: FragmentActivity): FragmentStateAdapter(fragment) {
 

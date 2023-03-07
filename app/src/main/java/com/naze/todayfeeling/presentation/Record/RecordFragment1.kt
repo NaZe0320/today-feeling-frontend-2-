@@ -1,9 +1,7 @@
-package com.naze.todayfeeling.presentation.writing
+package com.naze.todayfeeling.presentation.Record
 
 import android.os.Bundle
 import android.view.View
-import androidx.activity.viewModels
-import androidx.fragment.app.viewModels
 import androidx.lifecycle.ViewModelProvider
 import com.naze.todayfeeling.R
 import com.naze.todayfeeling.databinding.FragmentRecord1Binding

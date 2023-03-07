@@ -1,4 +1,4 @@
-package com.naze.todayfeeling.presentation.writing
+package com.naze.todayfeeling.presentation.Record
 
 import android.annotation.SuppressLint
 import android.os.Bundle

@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.PagerSnapHelper
 import com.naze.todayfeeling.R
 import com.naze.todayfeeling.databinding.FragmentHomeBinding
 import com.naze.todayfeeling.presentation.calendar.AdapterMonth
-import com.naze.todayfeeling.presentation.writing.RecordActivity
+import com.naze.todayfeeling.presentation.Record.RecordActivity
 import com.naze.todayfeeling.util.binding.BindingFragment
 
 class HomeFragment: BindingFragment<FragmentHomeBinding>(R.layout.fragment_home) {
