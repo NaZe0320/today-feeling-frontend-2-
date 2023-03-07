@@ -7,7 +7,7 @@ import androidx.activity.viewModels
 import androidx.lifecycle.flowWithLifecycle
 import androidx.lifecycle.lifecycleScope
 import com.naze.todayfeeling.R
-import com.naze.todayfeeling.databinding.ActivityWritingBinding
+import com.naze.todayfeeling.databinding.ActivityRecordBinding
 import com.naze.todayfeeling.util.RecordFragmentAdapter
 import com.naze.todayfeeling.util.binding.BindingActivity
 import dagger.hilt.android.AndroidEntryPoint
@@ -15,7 +15,7 @@ import kotlinx.coroutines.flow.launchIn
 import kotlinx.coroutines.flow.onEach
 
 @AndroidEntryPoint
-class RecordActivity : BindingActivity<ActivityWritingBinding>(R.layout.activity_writing) {
+class RecordActivity : BindingActivity<ActivityRecordBinding>(R.layout.activity_record) {
     private val viewModel : RecordViewModel by viewModels()
     private val adapter = RecordFragmentAdapter(this)
 
