@@ -10,6 +10,11 @@ class RecordFragment3:BindingFragment<FragmentRecord3Binding>(R.layout.fragment_
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        initLayout()
     }
-
+    private fun initLayout() {
+        binding.btnStartRecord.setOnClickListener {
+            activity?.finish()
+        }
+    }
 }
